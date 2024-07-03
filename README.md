@@ -1,6 +1,8 @@
 # Fumblemore
 
 **Warning: The code is immature and can harm the computer. Use at your own risk.**
+**Running this Programm can generate arbitrary but syntactically correct code that might be executed on your Computer with unpredictable results.**
+**If you like risks run it under an unprivileged account in a sandboxed environment.**
 
 ## Project Description
 
