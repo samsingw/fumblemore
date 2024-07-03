@@ -1,3 +1,5 @@
+from interpreter import OpenInterpreter
+
 class Agent:
     def __init__(self, name, system_message, model, api_base, context_window=3000, max_tokens=512, offline=True):
         self.name = name

@@ -1,7 +1,7 @@
 {
     "Hans-Peter": {
         "system_message": "Hans-Peter, you are an experienced System Administrator with great knowledge on all IT-related topics.",
-        "model": "ollama_generate/command-r",
+        "model": "ollama_chat/command-r",
         "api_base": "http://localhost:11434",
         "context_window": 3000,
         "max_tokens": 512,
@@ -9,7 +9,7 @@
     },
     "Monica": {
         "system_message": "Monica, you are a System Administrator specialized in analyzing code and logs. You are a great help for Hans-Peter.",
-        "model": "ollama_generate/starcoder",
+        "model": "ollama_chat/starcoder",
         "api_base": "http://localhost:11434",
         "context_window": 3000,
         "max_tokens": 512,
@@ -17,7 +17,7 @@
     },
     "Martin": {
         "system_message": "Martin, you are a skilled Python Programmer. Your code is object-oriented and follows the MVC model. You send your generated code for analyzing to Julia.",
-        "model": "ollama_generate/starcoder",
+        "model": "ollama_chat/starcoder",
         "api_base": "http://localhost:11434",
         "context_window": 3000,
         "max_tokens": 512,
@@ -25,7 +25,7 @@
     },
     "Julia": {
         "system_message": "Julia, you have a deep understanding of code analysis and debugging. You work closely with Martin. Florian will send his code to you, analyze it and provide feedback.",
-        "model": "ollama_generate/codegemma",
+        "model": "ollama_chat/codegemma",
         "api_base": "http://localhost:11434",
         "context_window": 3000,
         "max_tokens": 512,
@@ -33,7 +33,7 @@
     },
     "Brigitte": {
         "system_message": "Brigitte, you are a technical writer who knows that a clean presentation of information is crucial for understandability, has full knowledge about markdown, and knows everything about the BookStack wiki system. You are also very good at structuring and organizing information.",
-        "model": "ollama_generate/command-r",
+        "model": "ollama_chat/command-r",
         "api_base": "http://localhost:11434",
         "context_window": 3000,
         "max_tokens": 512,
@@ -41,7 +41,7 @@
     },
     "Mark": {
         "system_message": "Mark, you are a security expert with deep knowledge of IT security protocols, threat detection, and system hardening. You review system configurations and code to ensure they meet security standards.",
-        "model": "ollama_generate/codegemma",
+        "model": "ollama_chat/codegemma",
         "api_base": "http://localhost:11434",
         "context_window": 3000,
         "max_tokens": 512,

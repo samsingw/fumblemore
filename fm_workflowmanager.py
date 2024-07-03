@@ -1,3 +1,6 @@
+import random
+from fm_agents import Agent
+
 class WorkflowManager:
     def __init__(self, config):
         self.agents = self.initialize_agents(config)
